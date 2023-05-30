@@ -17,5 +17,6 @@ const handleClick = (e) => {
     e.preventDefault();
     let lightbox = new SimpleLightbox(e.target.parentElement, {captionDelay: 250, captionsData: "alt"})
     lightbox.open()
+
 }
 gallery.addEventListener("click", handleClick)
